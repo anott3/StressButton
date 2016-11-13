@@ -36,9 +36,10 @@ public class MainActivity extends AppCompatActivity {
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.SEND_SMS}, 1);
         /* TODO: check if user actually grant the permission */
         SmsManager smsManager = SmsManager.getDefault();
+        String jaysPhoneNumber = "5713153823";
         String wensPhoneNumber = "7328613900";
         String text = "Let us unrekt Adithya\n";
-        smsManager.sendTextMessage(wensPhoneNumber, null, text, null, null);
+        smsManager.sendTextMessage(jaysPhoneNumber, null, text, null, null);
     }
 
 
