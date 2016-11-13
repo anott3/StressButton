@@ -26,7 +26,8 @@
 
             android:layout_gravity="center"
             android:cropToPadding="false"
-            android:background="@drawable/red_button" />
+            android:background="@drawable/red_button"
+            android:onClick="sendRekt" />
     </FrameLayout>
 
     <FrameLayout
