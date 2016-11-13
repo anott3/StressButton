@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="redButtonBorder">@android:color/holo_red_light</color>
+    <color name="redButtonPressed">@android:color/holo_red_light</color>
+    <color name="redButtonNotPressed">@android:color/holo_red_dark</color>
+    <color name="settingButtonPressed">@android:color/background_light</color>
+    <color name="settingButtonNotPressed">@android:color/darker_gray</color>
 </resources>
