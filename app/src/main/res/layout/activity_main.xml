@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/redButton"
-
+            android:onClick="sendRekt"
             android:layout_gravity="center"
             android:cropToPadding="false"
             android:background="@drawable/red_button" />
@@ -50,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/imageButton"
+            android:onClick="openSettings"
             android:layout_gravity="center_horizontal|top"
             android:cropToPadding="false"
             android:background="@drawable/setting_button"
